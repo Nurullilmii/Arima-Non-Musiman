@@ -18,7 +18,7 @@ e. Carilah nilai sisa untuk data pada t = 3 atau ( Z3 –  Z ̂3)!
 
 f. Carilah nilai ramalan untuk Z ̂91(90), Z ̂92(90) dan Z ̂93 (90), yaitu nilai ramalan untuk Z91, Z92, dan Z93 yang dibuat berdasarkan pengamatan pada waktu t = 90!
 
-#Input Data 
+# Input Data 
 
 1.	Langkah awal adalah input data di R dengan data terurut sesuai waktu dan memanjang ke bawah.
 
@@ -28,7 +28,7 @@ f. Carilah nilai ramalan untuk Z ̂91(90), Z ̂92(90) dan Z ̂93 (90), yaitu nil
 
 ![image](https://user-images.githubusercontent.com/116244436/197443115-5f098107-5858-4438-a08c-07c291a1208b.png)
 
-#Tahap Identifikasi
+# Tahap Identifikasi
 
 Langkah pertama yang dilakukan dalam pemodelan deret waktu adalah tahap identifikasi. Pada tahap identifikasi ini, hal yang dilakukan adalah memeriksa kestasioneran data baik dalam mean maupun dalam variansi. Kestasioneran data dalam rata-rata dapat diperiksa melalui plot time series secara visual atau melalui uji Augmented Dickey-Fuller. Karena data terdiri dari dua variable yaitu t sebagai variable waktu dan Zt sebagai data deret waktu penjualan, maka untuk kemudahan, Anda dapat melabel data$Zt dengan nama penjualan:
 
